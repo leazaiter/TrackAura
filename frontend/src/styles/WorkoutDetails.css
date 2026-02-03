@@ -1,0 +1,79 @@
+.workout-details-container {
+  min-height: 100vh;
+  background: #f6f8f5;
+  padding: 40px;
+}
+
+.workout-details-container h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #3b5d47;
+}
+
+
+.exercise-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.exercise-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.exercise-card:hover {
+  transform: scale(1.05);
+}
+
+.exercise-card img,
+.exercise-gif {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.exercise-card h3 {
+  color: #3b5d47;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.exercise-card p {
+  font-size: 16px;
+  color: #6b8f71;
+  margin-bottom: 12px;
+}
+
+.complete-btn {
+  padding: 10px 16px;
+  background: linear-gradient(135deg,#8fbfa3,#6b8f71);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.complete-btn:hover {
+  background: #6b8f71;
+}
+
+.burned-summary {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #3b5d47;
+}

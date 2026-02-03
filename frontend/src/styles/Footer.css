@@ -1,0 +1,33 @@
+.footer {
+  background-color: #bacca7;
+  color: white;
+  padding: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-brand h2 {
+  font-size: 28px;
+}
+.tagline {
+  margin-top: 8px;
+  font-style: italic;
+}
+.footer-info p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+.footer-social {
+  display: flex;
+  gap: 20px;
+  font-size: 22px;
+  cursor: pointer;
+}
+.footer-social svg:hover {
+  color: #C9A227;
+  transform: scale(1.1);
+  transition: 0.3s;
+}

@@ -1,0 +1,48 @@
+.meals-container {
+  min-height: 100vh;
+  background: #f6f8f5;
+  padding: 40px;
+}
+.meals-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #3b5d47;
+}
+.meals-grid {
+  display: flex;          
+  flex-direction: row;     
+  justify-content: center; 
+  gap: 20px;               
+  flex-wrap: wrap;         
+}
+.meal-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  width: 200px;           
+  height:400px;
+}
+.meal-card:hover {
+  transform: scale(1.05);
+}
+.meal-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.meal-card h3 {
+  padding: 15px 0;
+  color: #3b5d47;
+  font-size: 20px;
+}
+.quote {
+  margin-top: 50px;
+  font-size: 22px;
+  font-style: italic;
+  color: #3b5d47;
+}

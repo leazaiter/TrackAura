@@ -1,0 +1,65 @@
+.settings-container {
+  min-height: 100vh;
+  background-image: url("../images/backimage.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.settings-box {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  width: 360px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.settings-box h2 {
+  font-size: 28px;
+  color: #3b5d47;
+  margin-bottom: 10px;
+}
+
+.settings-box .error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.settings-box input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #3b5d47;
+}
+
+.settings-box button {
+  background: #2e7d32; 
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.settings-box button:hover {
+  background: #6b8f71; 
+}
+
+.options {
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;
+  color: #3b5d47;
+  font-weight: bold;
+}
